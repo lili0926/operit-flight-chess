@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "com.lili.flight_chess",
+  "version": "0.1.0",
+  "main": "dist/main.js",
+  "display_name": {
+    "zh": "情侣飞行棋",
+    "en": "Couple Flight Chess",
+    "default": "Couple Flight Chess"
+  },
+  "description": {
+    "zh": "WebView 情侣飞行棋：掷骰、走格、存档。结构对齐 Operit dino_runner 示例。",
+    "en": "WebView couple flight chess. Scaffold aligned with Operit dino_runner.",
+    "default": "WebView couple flight chess scaffold."
+  },
+  "enabled_by_default": false,
+  "subpackages": [],
+  "resources": [
+    {
+      "key": "fc_board_html",
+      "path": "resources/webview/board.html",
+      "mime": "text/html"
+    },
+    {
+      "key": "fc_board_css",
+      "path": "resources/webview/board.css",
+      "mime": "text/css"
+    },
+    {
+      "key": "fc_board_js",
+      "path": "resources/webview/board.js",
+      "mime": "application/javascript"
+    }
+  ],
+  "workflow_templates": [],
+  "workspace_templates": []
+}
