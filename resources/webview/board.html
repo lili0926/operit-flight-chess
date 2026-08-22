@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>情侣飞行棋</title>
+  <link rel="stylesheet" href="board.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>恋爱飞行棋 · 简化版</h1>
+      <p class="sub">完整九图可之后替换为 player 页 · 停格生效</p>
+    </header>
+    <div class="status">
+      <span id="turn">轮到：你</span>
+      <span id="pos">位置：0 / 0</span>
+    </div>
+    <div class="board" id="board"></div>
+    <div class="log" id="log">点下方掷骰开始</div>
+    <div class="actions">
+      <button type="button" id="btn-roll">掷骰</button>
+      <button type="button" id="btn-ai" class="ghost">机掷</button>
+      <button type="button" id="btn-save" class="ghost">存档</button>
+      <button type="button" id="btn-load" class="ghost">读档</button>
+    </div>
+  </div>
+  <script src="board.js"></script>
+</body>
+</html>
